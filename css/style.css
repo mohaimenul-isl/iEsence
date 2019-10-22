@@ -249,12 +249,14 @@ a.shopingcart {
     color: #fff;
     font-size: 13px;
     text-transform: uppercase;
-    padding-bottom: 60px;
+    padding-bottom: 56px;
 }
 
 .banner-3-text h1 {
-    color: #fff;
+    color:#fff;
     font-weight: 800;
+    font-size: 48px;
+    width: 670px;
 }
 
 .hero-table-cell {
@@ -268,6 +270,7 @@ a.btn-explr-1 {
     padding: 10px 9px;
     text-transform: uppercase;
     text-decoration: none;
+    font-weight: 400;
 }
 
 a.btn-explr-2 {
@@ -277,6 +280,7 @@ a.btn-explr-2 {
     text-transform: uppercase;
     text-decoration: none;
     margin-left: 25px;
+    font-weight: 400;
 }
 
 a.btn-explr-1:hover {
@@ -286,8 +290,9 @@ a.btn-explr-1:hover {
     text-transform: uppercase;
     border: none;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 400;
     transition: .2s;
+    border: 1px solid transparent;
 }
 
 a.btn-explr-2:hover {
@@ -297,8 +302,9 @@ a.btn-explr-2:hover {
     text-transform: uppercase;
     border: none;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 400;
     transition: .2s;
+    border: 1px solid transparent;
 }
 
 .nav-left {
