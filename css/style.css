@@ -60,8 +60,9 @@ img.logo {
     margin-left: -46px;
     float: left;
 }
+
 .banner1 {
-    padding: 22px 0px;
+    padding: 45px;
 }
 
 .banner1 i.fa.fa-cog {
@@ -126,6 +127,10 @@ button.btn.btn-default.searchicon {
 }
 
 /* NAVBAR BOTTOM */
+
+.navbar {
+    margin-bottom: 0;
+}
 
 .my-nav{
     background-color: #4599d3;
