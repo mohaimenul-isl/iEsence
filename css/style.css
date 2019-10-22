@@ -122,11 +122,69 @@ button.btn.btn-default.searchicon {
 }
 
 .right-head-top {
-    overflow: hidden;
-    margin-left: 80px;
+    margin-left: 173px;
 }
 
 /* NAVBAR BOTTOM */
+
+.my-nav{
+    background-color: #4599d3;
+    border-radius: 0;
+    border: 0;
+}
+
+.my-nav.navbar.navbar-default .container {
+    padding-left: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    padding: 30px 17px;
+    line-height: 13px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.nav.navbar-nav li:first-child a {
+    padding-left: 16px;
+
+}
+
+.nav.navbar-nav.navbar-right a span {
+    background-color: #fdd108;
+    height: 29px;
+    width: 29px;
+    border-radius: 50%;
+    display: inline;
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-weight: 700;
+    color: #4599d3;
+    font-size: 15px;
+}
+
+.nav.navbar-nav.navbar-right span {
+    margin-left: -10px;
+    margin-top: 22px;
+
+}
+
+.nav.navbar-nav.navbar-right {
+    margin-right: 20px;
+}
+
+.fa.fa-rss {
+
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
 .container-fluid.banner2 {
     background-color: #4599d3;
     padding: 21px 0px;
