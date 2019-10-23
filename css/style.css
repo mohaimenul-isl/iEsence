@@ -325,7 +325,6 @@ a.btn-explr-2:hover {
 
 .banner4 {
     background-color: #3d9ed6;
-    padding: 113px 0px;
     text-align: center;
 }
 
@@ -333,10 +332,11 @@ a.btn-explr-2:hover {
     color: #fff;
     line-height: 25px;
 }
+
 .banner4 h2 {
     color: #fff;
     font-size: 25px;
-    padding: 25px 0px;
+    padding: 32px 0px 12px 0px;
 }
 
 .col-md-12.banner4-header {
@@ -358,7 +358,7 @@ h3.ban4head {
 }
 
 .row.service-rows {
-    padding-top: 100px;
+    padding-top: 110px;
 }
 
 h3.ban4head {
@@ -366,20 +366,21 @@ h3.ban4head {
     font-size:30px;
 }
 
-.service-1 {
-    margin-top: 15px;
+.service-rows a i.fa {
+    color: #fff;
+    font-size: 100px;
 }
 
-.service-2 {
-    margin-top: 7px;
+.services-table {
+    display: table;
+    height: 700px;
+    width: 100%;
 }
 
-.service-3 {
-    margin-top: 1px;
-}
-
-.service-4 {
-    margin-top: 19px;
+.services-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 32px;
 }
 
 /*BANNER 5 - RECENT PROJECT */
