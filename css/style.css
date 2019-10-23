@@ -834,7 +834,7 @@ section.pricing {
 
 .client-h h5 {
    text-align: center;
-   padding: 26px 0;
+   padding: 44px 0;
    text-transform: uppercase;
    font-weight: 800;
 }
@@ -898,6 +898,10 @@ section.pricing {
 
 .pricing-4 {
    padding-top: 7px;
+}
+
+.client-para {
+   padding-top: 14px;
 }
 
 /* COUNT -  BANNER 10 */
