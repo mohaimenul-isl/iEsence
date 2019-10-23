@@ -638,7 +638,8 @@ a.viewbtn {
 /* TESTIMONIAL -  BANNER 8 */
 .banner-header p {
    margin-left: 250px;
-   margin-top: -37px;
+   margin-top: -33px;
+   font-size: 11px;
 }
 
 .testimonial-bg {
@@ -654,7 +655,7 @@ a.viewbtn {
 }
 
 .banner-header {
-   border-bottom: 1px solid #ffffff;
+  
    color: #fff;
 }
 
@@ -702,6 +703,31 @@ img.right-arrow8 {
 .textimonial-main {
    display: table-cell;
    vertical-align: middle;
+}
+
+.banner-header h1 {
+   font-size: 29px;
+   text-transform: uppercase;
+}
+
+.banner8-main-head {
+   position: relative;
+   /* height: 46px; */
+   width: 1153px;
+}
+
+.banner8-main-head:before {
+   position: absolute;
+   content: "";
+   display: block;
+   background-color: #53abd8;
+   height: 1px;
+   margin-top: 50px;
+   padding-top: -23px;
+   left: 21px;
+   bottom: 28px;
+   top: -24px;
+   right: 0;
 }
 
 /* PRICING -  BANNER 9 */
