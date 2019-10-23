@@ -1,4 +1,5 @@
 /* BASE CSS */
+
 .alignleft {
    float: left;
    margin-right: 15px;
@@ -45,8 +46,8 @@ body {
    padding-bottom: 100px;
 }
 
-
 /* Header TOP CSS */
+
 .container-fluid.banner1 {
    padding: 25px 0px;
 }
@@ -323,6 +324,7 @@ a.btn-explr-2:hover {
 }
 
 /* SERVICES */
+
 .banner4 h3 {
    color: #fff;
 }
@@ -510,8 +512,8 @@ a.porfolio-btn {
    margin-top: -3px;
 }
 
-
 /* EXPLORE SECTION BANNER 6 */
+
 .banner6-bg {
    background-image: url(/img/banner6-bg.png);
    background-size: cover;
@@ -552,6 +554,7 @@ a.btn.btn-primary.btn-lg {
 }
 
 /* OUR BLOG - CARD -  BANNER 7 */
+
 .faw-card {
    border-top: 1px solid #e7e7e7;
    border-bottom: 1px solid #e7e7e7;
@@ -655,7 +658,7 @@ a.viewbtn {
 }
 
 .banner-header {
-  
+
    color: #fff;
 }
 
@@ -712,7 +715,6 @@ img.right-arrow8 {
 
 .banner8-main-head {
    position: relative;
-   /* height: 46px; */
    width: 1153px;
 }
 
@@ -720,7 +722,7 @@ img.right-arrow8 {
    position: absolute;
    content: "";
    display: block;
-   background-color: #53abd8;
+   background-color: #e7e7e7;
    height: 1px;
    margin-top: 50px;
    padding-top: -23px;
@@ -732,22 +734,26 @@ img.right-arrow8 {
 
 /* PRICING -  BANNER 9 */
 
+section.pricing {
+   height: 1481px;
+}
+
 .pricing-1 ul li {
    list-style: none;
    padding-left: 19px;
    position: relative;
    padding-bottom: 10px;
    font-size: 13px;
-   line-height: 23px;
-   width: 323px;
-   left: -31px;
+   line-height: 2;
+   width: 300px;
+   left: -5px;
 }
 
 .pricing-1 ul li::before {
    content: "";
    background: #ffffff;
-   height: 10px;
-   width: 10px;
+   height: 18px;
+   width: 18px;
    border-radius: 50%;
    position: absolute;
    left: -7px;
@@ -772,10 +778,8 @@ img.right-arrow8 {
 
 .pricing-heading {
    margin-bottom: 43px;
-   border-bottom: 1px solid #e7e7e7;
+   padding-top: 118px;
 }
-
-
 
 .pricing-2 ul {
    padding-bottom: 45px;
@@ -789,6 +793,7 @@ img.right-arrow8 {
    background-color: #3d9ed6;
    color: #fff;
    padding: 60px 25px;
+   height: 560px;
 }
 
 .pricing-1 p {
@@ -796,8 +801,6 @@ img.right-arrow8 {
 }
 
 .pricing-heading-2 h6 {
-   border-top: 1px solid #e7e7e7;
-   border-bottom: 1px solid #e7e7e7;
    padding: 10px 0px;
 }
 
@@ -815,6 +818,7 @@ img.right-arrow8 {
 
 .pricing-1 h4 {
    font-size: 21px;
+   padding-left: 39px;
 }
 
 .pricing-1 p {
@@ -845,8 +849,55 @@ img.right-arrow8 {
 
 .pricing-4 ul li {
    list-style: none;
-   line-height: 27px;
-   font-weight: 500;
+   line-height: 2.5;
+   font-weight: 400;
+   font-size: 13px;
+}
+
+.pricing-heading:before {
+   position: absolute;
+   content: "";
+   display: block;
+   background-color: #e7e7e7;
+   height: 1px;
+   margin-top: 50px;
+   padding-top: -23px;
+   left: 2px;
+   bottom: 3px;
+   right: 0;
+}
+.pricing-heading {
+   margin-bottom: 43px;
+   padding-top: 118px;
+   position: relative;
+   width: 1250px;
+}
+
+
+.pricing-heading-2 h6:before {
+   position: absolute;
+   content: "";
+   display: block;
+   background-color: #e7e7e7;
+   height: 1px;
+   margin-top: 50px;
+   padding-top: -23px;
+   left: 2px;
+   bottom: -1px;
+   right: 0;
+}
+.pricing-heading-2 h6 {
+   position: relative;
+   width: 335px;
+   border-top: 1px solid #e7e7e7;
+   text-transform: uppercase;
+   font-size: 13px;
+   font-weight: 400;
+   margin-top: 32px;
+}
+
+.pricing-4 {
+   padding-top: 7px;
 }
 
 /* COUNT -  BANNER 10 */
