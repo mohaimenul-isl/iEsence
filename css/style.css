@@ -246,7 +246,7 @@ a.shopingcart {
 }
 
 .banner-3-text {
-    margin-top: -48px;
+    margin-top: -62px;
 }
 
 .banner-3-text p {
@@ -403,7 +403,7 @@ section.section-padding {
     border-bottom: 1px solid #e7e7e7;
 }
 .bottom-banner-file {
-    padding-top: 38px;
+    padding-top: 40px;
 }
 
 img.bottom-banner-img2 {
@@ -419,21 +419,18 @@ img.bottom-banner-img2 {
     padding-right: 20px;
 }
 
-.bottom-banner5-faw h6 {
-    padding-left: 15px;
-}
 
 .banner5-faw-file {
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
-    overflow: hidden;
     color: #999999;
-    padding-top: 12px;
-    width: 700px;
+    width: 682px;
+    padding-top: 15px;
 }
 
 .banner5-porfolio-btn {
     padding-top: 50px;
+    margin-bottom: -46px;
 }
 
 a.porfolio-btn {
@@ -448,6 +445,63 @@ a.porfolio-btn {
 .bottom-banner5-faw i.fa {
     float: right;
 }
+
+.recent-table {
+    display: table;
+    height: 1230px;
+    width: 100%;
+}
+
+.recent-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.recent-photo {
+    padding-top: 9px;
+}
+
+.bottom-banner-text {
+    
+}
+
+.bottom-banner5-faw {
+    
+}
+
+.listnumber ul li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.listnumber ul li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 14px;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin-left: -5px;
+    padding-left: 13px;
+    padding-top: 7px;
+}
+
+.listnumber li.active {
+    background-color: #fdd108;
+    color: #fff;
+    font-size: 14px;
+}
+
+.bottomban {
+    padding-top: 4px;
+}
+
+.listnumber {
+    margin-left: -19px;
+    margin-top: -3px;
+}
+
 
 /* EXPLORE SECTION BANNER 6 */
 .banner6-bg {
