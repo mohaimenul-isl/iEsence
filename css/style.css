@@ -734,8 +734,8 @@ img.right-arrow8 {
 }
 
 .banner-fawsm {
-   border-top: 1px solid #fff;
-   border-bottom: 1px solid #fff;
+   border-top: 1px solid #e7e7e7;
+   border-bottom: 1px solid #e7e7e7;
    padding-top: 7px;
    margin-top: -12px;
 }
@@ -773,7 +773,7 @@ img.right-arrow8 {
    position: absolute;
    content: "";
    display: block;
-   background-color: #e7e7e7;
+   background-color: #fff;
    height: 1px;
    margin-top: 50px;
    padding-top: -23px;
@@ -952,7 +952,7 @@ section.pricing {
    border-top: 1px solid #e7e7e7;
    text-transform: uppercase;
    font-size: 13px;
-   font-weight: 400;
+   font-weight: 700;
    margin-top: 32px;
 }
 
