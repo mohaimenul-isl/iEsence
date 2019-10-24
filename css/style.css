@@ -111,6 +111,7 @@ button.btn.btn-default.searchicon {
    padding: 7px 11px;
    border: none;
    margin-top: 1px;
+   border-radius: 0;
 }
 
 .banner1 .searchbox {
@@ -128,6 +129,10 @@ button.btn.btn-default.searchicon {
 
 .right-head-top {
    margin-left: 173px;
+}
+
+form.topsearch {
+   margin-left: 53px;
 }
 
 /* NAVBAR BOTTOM */
@@ -153,6 +158,7 @@ button.btn.btn-default.searchicon {
    font-size: 13px;
    text-transform: uppercase;
    font-weight: 400;
+   letter-spacing: 0.5px;
 }
 
 .nav.navbar-nav li:first-child a {
@@ -258,6 +264,8 @@ a.shopingcart {
    font-size: 13px;
    text-transform: uppercase;
    padding-bottom: 56px;
+   line-height: 25px;
+   letter-spacing: .25px;
 }
 
 .banner-3-text h1 {
@@ -275,44 +283,58 @@ a.shopingcart {
 a.btn-explr-1 {
    color: #fdd108;
    border: 1px solid #fdd108;
-   padding: 10px 9px;
+   padding: 8px 15px;
    text-transform: uppercase;
    text-decoration: none;
    font-weight: 400;
+   display: inline-block;
+   width: 136px;
+   height: 40px;
+   letter-spacing: .25px;
 }
 
 a.btn-explr-2 {
    color: #fdd108;
    border: 1px solid #fdd108;
-   padding: 10px 9px;
+   padding: 8px 15px;
    text-transform: uppercase;
    text-decoration: none;
    margin-left: 25px;
    font-weight: 400;
+   display: inline-block;
+   width: 136px;
+   height: 40px;
+   letter-spacing: .25px;
 }
 
 a.btn-explr-1:hover {
    background-color: #3fc7f3;
    color: #1a1a1a;
-   padding: 10px 9px;
+   padding: 8px 15px;
    text-transform: uppercase;
-   border: none;
    text-decoration: none;
    font-weight: 400;
    transition: .2s;
    border: 1px solid transparent;
+   display: inline-block;
+   width: 136px;
+   height: 40px;
+   letter-spacing: .25px;
 }
 
 a.btn-explr-2:hover {
    background-color: #3fc7f3;
    color: #1a1a1a;
-   padding: 10px 9px;
+   padding: 8px 15px;
    text-transform: uppercase;
-   border: none;
    text-decoration: none;
    font-weight: 400;
    transition: .2s;
    border: 1px solid transparent;
+   display: inline-block;
+   width: 136px;
+   height: 40px;
+   letter-spacing: .25px;
 }
 
 .nav-left {
@@ -336,7 +358,8 @@ a.btn-explr-2:hover {
 
 .banner4 p {
    color: #fff;
-   line-height: 25px;
+   line-height: 20px;
+   letter-spacing: 0.5px;
 }
 
 .banner4 h2 {
@@ -369,8 +392,9 @@ h3.ban4head {
 }
 
 h3.ban4head {
-   font-weight: 100;
    font-size: 30px;
+   line-height: 43px;
+   font-weight: 400;
 }
 
 .service-rows a i.fa {
@@ -444,10 +468,16 @@ img.bottom-banner-img2 {
 a.porfolio-btn {
    background-color: #3d9ed6;
    color: #fff;
-   padding: 10px 13px;
+   padding: 12px 16px;
    text-transform: uppercase;
    text-decoration: none;
    font-size: 11px;
+   display: inline-block;
+   width: 145px;
+   height: 38px;
+   line-height: 18px;
+   letter-spacing: .5px;
+   font-weight: 400;
 }
 
 .bottom-banner5-faw i.fa {
@@ -476,6 +506,9 @@ a.porfolio-btn {
 .bottom-banner-text p {
    font-size: 13px;
    width: 630px;
+   line-height: 20px;
+   letter-spacing: .25px;
+   font-weight: 400;
 }
 
 .listnumber ul li {
@@ -527,6 +560,13 @@ a.btn.btn-primary.btn-lg {
    background-color: #4599d3;
    border-radius: 0;
    border: none;
+   font-size: 13px;
+   letter-spacing: .25px;
+   width: 140px;
+   height: 42px;
+   text-transform: uppercase;
+   text-align: center;
+   line-height: 23px;
 }
 
 .main-jumbo-table {
@@ -542,14 +582,20 @@ a.btn.btn-primary.btn-lg {
 }
 
 .jumbo p {
-   font-size: 15px;
-   font-weight: 500;
-   width: 502px;
+   font-size: 19px;
+   font-weight: 400;
+   width: 530px;
+   line-height: 25px;
+   padding-top: 12px;
+
+   
 }
 
 .container .jumbotron,
 .container-fluid .jumbotron {
    border-radius: 0;
+   width: 1170px;
+   height: 165px;
 
 }
 
@@ -597,6 +643,11 @@ a.viewbtn {
    text-transform: uppercase;
    text-decoration: none;
    font-size: 11px;
+   width: 90px;
+   display: inline-block;
+   height: 38px;
+   line-height: 18px;
+   letter-spacing: .5px;
 }
 
 .card-text h1 {
@@ -744,9 +795,10 @@ section.pricing {
    position: relative;
    padding-bottom: 10px;
    font-size: 13px;
-   line-height: 2;
+   line-height: 21px;
    width: 300px;
    left: -5px;
+   letter-spacing: .25px;
 }
 
 .pricing-1 ul li::before {
@@ -762,13 +814,17 @@ section.pricing {
 
 .pricing-2 a {
    background-color: #3d9ed6;
-   padding: 9px 20px;
+   padding: 14px 31px;
    color: #fff;
    text-transform: uppercase;
    text-decoration: none;
    font-size: 11px;
    margin-left: 39px;
-   font-weight: 500;
+   font-weight: 400;
+   display: inline-block;
+   width: 133px;
+   height: 41px;
+   letter-spacing: .5px;
 }
 
 .pricing-heading p {
@@ -827,9 +883,11 @@ section.pricing {
 }
 
 .client-para p {
-   font-size: 20px;
+   font-size: 30px;
    text-align: center;
    padding-top: 100px;
+   line-height: 43px;
+   font-weight: 400;
 }
 
 .client-h h5 {
@@ -837,6 +895,7 @@ section.pricing {
    padding: 44px 0;
    text-transform: uppercase;
    font-weight: 800;
+   font-size: 21px;
 }
 
 .client-img {
@@ -849,9 +908,10 @@ section.pricing {
 
 .pricing-4 ul li {
    list-style: none;
-   line-height: 2.5;
+   line-height: 35px;
    font-weight: 400;
    font-size: 13px;
+   letter-spacing: .25px;
 }
 
 .pricing-heading:before {
@@ -939,6 +999,7 @@ section.pricing {
    padding-top: 5px;
    width: 92px;
    text-align: center;
+   letter-spacing: 0.5px;
 }
 
 /* FOOTER -  BANNER 10 */
@@ -985,6 +1046,9 @@ i.fa {
 .footer-foot p {
    color: #ffffff;
    font-size: 11px;
+   line-height: 19px;
+   letter-spacing: .25px;
+   padding-left: 15px;
 }
 
 .sub-btn a {
@@ -1014,6 +1078,8 @@ i.fa {
    font-size: 13px;
    padding-top: 40px;
    padding-bottom: 9px;
+   line-height: 18px;
+   letter-spacing: .25px;
 }
 
 form.footermail input.form-control {
@@ -1032,6 +1098,9 @@ form.footermail input.form-control {
 .recent-article ul li {
    position: relative;
    list-style: none;
+   font-size: 13px;
+   line-height: 29px;
+   letter-spacing: .25px;
 }
 
 .recent-article ul li::before {
@@ -1058,7 +1127,7 @@ form.footermail input.form-control {
 .formtw-h a {
    position: absolute;
    top: 0px;
-   left: 269px;
+   left: 366px;
    background-color: #2d97cb;
    color: #fff;
    padding: 5px 13px;
@@ -1079,11 +1148,14 @@ form.footermail input.form-control {
 .jack p {
    margin-top: -9px;
    font-size: 13px;
+   line-height: 20px;
+   letter-spacing: .25px;
+   width: 287px;
 }
 
 .jack {
    position: relative;
-   margin-left: -38px;
+   margin-left: -64px;
 }
 
 a.coop {
@@ -1134,4 +1206,8 @@ a.coop {
 .footer-table-cell {
    display: table-cell;
    vertical-align: middle;
+}
+
+.faw-footer {
+   margin-left: 2px;
 }
