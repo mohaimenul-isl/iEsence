@@ -910,7 +910,6 @@ section.pricing {
    background-image: url(/img/banner10-bg.png);
    background-size: cover;
    background-position: center center;
-   height: 333px;
 }
 
 .count-main {
@@ -1062,7 +1061,7 @@ input[type="email"] {
 .formtw-h a {
    position: absolute;
    top: 0px;
-   left: 248px;
+   left: 269px;
    background-color: #2d97cb;
    color: #fff;
    padding: 5px 13px;
@@ -1131,7 +1130,7 @@ a.coop {
 
 .footer-table {
    display: table;
-   height: 576px;
+   height: 570px;
    width: 100%;
 }
 
