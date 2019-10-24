@@ -952,11 +952,7 @@ section.pricing {
 .footer-section {
    overflow: hidden;
    color: #fff;
-}
-
-.footer-section {
-   overflow: hidden;
-   color: #fff;
+   height: 265px;
 }
 
 .faw-footer i.fa.fa-twitter {
@@ -993,7 +989,7 @@ i.fa {
 
 .sub-btn a {
    position: absolute;
-   top: 22px;
+   top: 12px;
    left: 0;
    background-color: #23c9ff;
    color: #fff;
@@ -1016,20 +1012,21 @@ i.fa {
 
 .subscribe p {
    font-size: 13px;
-   padding-top: 60px;
+   padding-top: 40px;
    padding-bottom: 9px;
 }
 
-input[type="email"] {
+form.footermail input.form-control {
    height: 40px;
-   width: 225px;
+   width: 221px;
+   border-radius: 0;
 }
 
 .recent-article ul {
    margin-left: -15px;
    line-height: 29px;
    font-size: 13px;
-   padding-top: 49px;
+   padding-top: 32px;
 }
 
 .recent-article ul li {
@@ -1095,7 +1092,7 @@ a.coop {
 
 .form-tw-border {
    border-bottom: 1px solid #353535;
-   padding-top: 58px;
+   padding-top: 41px;
    padding-bottom: 10px;
 }
 
