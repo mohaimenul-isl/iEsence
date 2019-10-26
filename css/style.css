@@ -548,7 +548,7 @@ a.porfolio-btn {
 /* EXPLORE SECTION BANNER 6 */
 
 .banner6-bg {
-   background-image: url(/img/banner6-bg.png);
+   background-image: url(img/banner6-bg.png);
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center center;
@@ -697,7 +697,7 @@ a.viewbtn {
 }
 
 .testimonial-bg {
-   background-image: url(/img/banner8-bg.png);
+   background-image: url(../img/banner8-bg.png);
    height: 500px;
    background-size: cover;
    background-position: center center;
@@ -967,7 +967,7 @@ section.pricing {
 /* COUNT -  BANNER 10 */
 
 .banner10-bg {
-   background-image: url(/img/banner10-bg.png);
+   background-image: url(../img/banner10-bg.png);
    background-size: cover;
    background-position: center center;
 }
@@ -1005,7 +1005,7 @@ section.pricing {
 /* FOOTER -  BANNER 10 */
 
 .footer-bg {
-   background-image: url(/img/footer-bg.png);
+   background-image: url(../img/footer-bg.png);
    background-size: cover;
    background-position: center center;
 }
