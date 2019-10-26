@@ -1,11 +1,8 @@
 /* BASE CSS */
-html {
-   overflow: scroll;
-   overflow-x: hidden;
-}
 
 body {
    font-family: 'Montserrat', sans-serif;
+   overflow-x: hidden;
 }
 
 .alignleft {
@@ -24,7 +21,7 @@ body {
 }
 
 a:focus {
-   outline: 0 solid
+   outline: 0 solid;
 }
 
 img {
