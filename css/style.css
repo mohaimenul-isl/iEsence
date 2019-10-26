@@ -933,7 +933,6 @@ section.pricing {
    width: 1250px;
 }
 
-
 .pricing-heading-2 h6:before {
    position: absolute;
    content: "";
@@ -946,6 +945,7 @@ section.pricing {
    bottom: -1px;
    right: 0;
 }
+
 .pricing-heading-2 h6 {
    position: relative;
    width: 335px;
