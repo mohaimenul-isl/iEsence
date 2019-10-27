@@ -59,13 +59,15 @@ img.logo {
    width: 150px;
 }
 
+.login-btn {
+   float: left;
+}
+
 .loginbtn {
    background-color: #3fc7f3;
    padding: 8px 32px;
    border: none;
    border-radius: 0;
-   margin-left: -46px;
-   float: left;
 }
 
 .banner1 {
@@ -131,11 +133,23 @@ button.btn.btn-default.searchicon {
 }
 
 .right-head-top {
-   margin-left: 173px;
+  
 }
 
 form.topsearch {
-   margin-left: 53px;
+   margin-left: 40px;
+}
+
+.input-group {
+   width: 220px;
+}
+
+.right-sidenav {
+   float: right;
+}
+
+.header-top-area {
+   display: inline-block;
 }
 
 /* NAVBAR BOTTOM */
